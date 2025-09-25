@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2072522647392302929}
   - component: {fileID: 4467317975171933643}
+  - component: {fileID: -6455692831125130804}
   m_Layer: 0
   m_Name: Torreta
   m_TagString: Untagged
@@ -45,6 +46,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1152c4390152c64fada45f56719b45a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pivoteCuerpo: {fileID: 0}
+  "pivoteCa\xF1on": {fileID: 0}
+  delta: {x: 0, y: 0}
+  deltaY: 0
+  deltaX: 0
+--- !u!114 &-6455692831125130804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4204055138801578519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f119686f30d03419208f2bb6cfdbdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 3196805404912939544, guid: caa8c4b175fe5664e84bd6050bc038f8, type: 3}
+  puntaCanon: {fileID: 0}
 --- !u!1 &4733335368952858582
 GameObject:
   m_ObjectHideFlags: 0
