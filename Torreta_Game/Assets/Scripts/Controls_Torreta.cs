@@ -8,10 +8,12 @@ public class Controls_Torreta : MonoBehaviour
     public Vector2 delta;
     public float deltaY;
     public float deltaX;
+    
 
     void Start()
     {
-       
+        
+        
     }
 
     void Update()
