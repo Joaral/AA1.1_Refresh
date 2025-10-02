@@ -33,6 +33,8 @@ public class TargetController : MonoBehaviour
 
             targetFull.SetActive(false);
 
+            GameManager.instance.AddScore(100);
+
             currentBrokenInstance = Instantiate(targetBrokenPrefab,targetFull.transform.position, Quaternion.Euler(90f,0f,0f));
             Destroy(currentBrokenInstance, respawnTime);
 
